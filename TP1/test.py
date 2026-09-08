@@ -18,4 +18,4 @@ def test_2():
 
 def test_puissance_indefinie():
      with pytest.raises(ValueError):
-        f.puissance(-2, 3)
+        f.puissance(0, -3)
