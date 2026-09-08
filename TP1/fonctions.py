@@ -12,9 +12,11 @@ def puissance(a,b):
     if a == 0 and b < 0 :
           raise ValueError("Opération indéfinie pour un nombre négatif")
     
-    if b<0 :
+    if b < 0 :
         for i in range(abs(b)): 
             resultat *= a
         return (1/resultat)
+    for i in range(b):
+        resultat*= a 
     return resultat
 
