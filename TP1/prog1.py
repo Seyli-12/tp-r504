@@ -19,6 +19,6 @@ while True :
     
 
      resultat = f.puissance(val1,val2)
-     print(resultat)
+     print("la valeur est :" , resultat)
 
 
