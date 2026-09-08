@@ -8,6 +8,9 @@ def puissance(a,b):
           raise TypeError("Only integers are allowed")
     if not type(b) is int :
           raise TypeError("Only integers are allowed")
+
+    if a < 0:
+          raise ValueError("Opération indéfinie pour un nombre négatif")
     resultat = a**b
     return resultat
 
