@@ -2,6 +2,7 @@
 
 
 def puissance(a,b):
+    resultat = 0 
     print("Le type de la premiere valeur est : ",type(a))
     print("Le type de la deuxieme valeur est : ",type(b))
     if not type(a) is int :
