@@ -18,5 +18,6 @@ def puissance(a,b):
         return (1/resultat)
     for i in range(b):
         resultat*= a 
+
     return resultat
 

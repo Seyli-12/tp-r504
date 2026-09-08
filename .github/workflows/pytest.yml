@@ -13,3 +13,8 @@ jobs:
           pip install pytest
     - name: Run tests
       run: pytest TP1/test.py
+    - name: Informations 
+      run: | 
+          echo "Branche : ${{ github.ref }}"
+          echo "systeme d'exploitation : ${{ runner.os }}"
+          python --version
